@@ -65,4 +65,4 @@ You will be able to navigate through the different sections of the portfolio to 
 ---
 
 ## Author
-Ana Cecilia Maldonado Cervantes - April 2021
+Ana Cecilia Maldonado Cervantes - April, 2021
