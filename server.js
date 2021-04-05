@@ -9,8 +9,7 @@ const comment = require("./models/comment.js")
 const bodyParser = require('body-parser');
 
 const corsOptions = {
-    origin: ['http://localhost:3000'], //port for React app
-    // origin: ['http://beer-encyclopaedia.surge.sh'], //port for React app
+    origin: ['http://ana-cecilia-maldonado-portfolio.surge.sh'], //port for React app
     methods: "GET,POST,PUT,DELETE",
     credentials: true, //allows session cookies to be sent back and forth
     optionsSuccessStatus: 200 //legacy browsers
@@ -24,14 +23,14 @@ app.use((req, res, next) => {
     next();
   });
 
-//   app.use((req, res, next) => {
-//     res.setHeader("Access-Control-Allow-Origin", "http://beer-encyclopaedia.surge.sh");
-//     res.header(
-//       "Access-Control-Allow-Headers",
-//       "Origin, X-Requested-With, Content-Type, Accept"
-//     );
-//     next();
-//   })
+  app.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", "http://ana-cecilia-maldonado-portfolio.surge.sh");
+    res.header(
+      "Access-Control-Allow-Headers",
+      "Origin, X-Requested-With, Content-Type, Accept"
+    );
+    next();
+  })
 
 app.use(methodOverride("_method"));
 

@@ -60,7 +60,7 @@ You will be able to navigate through the different sections of the portfolio to 
 ---
 
 ## Installation
-+ No special installation required: [Go to App](http://beer-encyclopaedia.surge.sh)
++ No special installation required: [Go to App](http://ana-cecilia-maldonado-portfolio.surge.sh)
 
 ---
 
